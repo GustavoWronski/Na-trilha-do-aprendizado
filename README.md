@@ -1,2 +1,2 @@
-# Na-trilha-do-aprendizado
- Projeto Na trilha do aprendizado- Aula12
+# RDE06 
+ Sintese da aula 10, atividade RDE06
