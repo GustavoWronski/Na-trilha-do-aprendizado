@@ -36,5 +36,37 @@
         <img src="img/mult4.PNG" alt="img4">
         <p><font color="red">Exibição:</font></p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/fYJl-7jRzuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Além de atrás do YouTube, é possível incorporar vídeos da máquina local ou até do servidor utilizado para a hospedagem.</p>
+        <h2>TAG video</h2>
+        <p>É utilizada para incorporar um conteúdo de vídeo no documento</p>
+        <p><font color="green">Sintaxe:</font></p>
+        <img src="img/mult5.PNG" alt="img5">
+        <p><font color="red">Exibição:</font></p>
+        <video poster="video/Bike.jpg" controls>
+        <source src="video/_Bike.mp4" type="video/mp4">
+        <source src="video/Bike.webm" type="video/webm">
+        <source src="video/Bike.ogv" type="video/ogv">
+        </video>
+        <h2>TAG audio</h2>
+        <p>É possivel realizar essa tarefa através do YouTube, pela sua biblioteca de áudio</p>
+        <p><font color="green">Sintaxe:</font></p>
+        <img src="img/mult6.PNG" alt="img6">
+        <p><font color="red">Exibição:</font></p>
+        <audio preload="metadata" controls>
+            <source src="audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+            <source src="audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+            <source src="audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+        </audio>
+        <h2>TAG Picture</h2>
+        <p>Essa Tag faz com quer haja mais mais flexibilidade na especificação de recursos de imagem no programa.<br> Como por exemplo, o tamanho da imagem em telas diferentes.</p>
+        <p><font color="green">Sintaxe:</font></p>
+        <img src="img/mult7.PNG" alt="img7">
+        <p><font color="red">Exibição:</font></p>
+        <picture>
+            <source media="(max-width:500px)" srcset="img/bike_110.jpg" > 
+            <source media="(max-width:700px)" srcset="img/bike_320.jpg"> 
+            <source media="(max-width:1000px)" srcset="img/bike_640.jpg"> 
+            <img src="img/bike_full.jpg" alt="Mtb Por-do-sol">
+        </picture>
     </body>
 </html>    
