@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    background-color: aliceblue;
+    color: aquamarine;
+    text-align: center;
+    font-size: 28px;
+}
+h2{
+    color: cornsilk;
+}
+h3{
+    color: lavender;
+}
+h4{
+    color: lightgray;
+}
+ul{
+    color: darkcyan;
+}
+ol{
+    color: darkcyan;
+}
