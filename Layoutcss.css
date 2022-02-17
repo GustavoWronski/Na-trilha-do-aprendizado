@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(60, 172, 135, 0.76);
+    background-image:linear-gradient(to right rgba(60, 172, 135, 0.76), gainsboro) ;
     margin: 10px;
 }
 h2{
