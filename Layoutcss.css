@@ -1,6 +1,7 @@
 body{
-    background-image:linear-gradient(to right rgba(60, 172, 135, 0.76), gainsboro) ;
+    background-image:linear-gradient(#3451, #eeeeee);
     margin: 10px;
+    text-align: center;
 }
 h2{
     font-weight: bold;
